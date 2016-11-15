@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ciclovida"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/app_ciclo" />
+        <item
+            android:id="@+id/nav_listactivity1"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/app_listactivity" />
+        <item
+            android:id="@+id/nav_simpleadapter"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/app_simpleadapter" />
+
+    </group>
+
+    <item android:title="@string/action_confi">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/app_sair" />
+        </menu>
+    </item>
+
+</menu>
