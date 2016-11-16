@@ -3,13 +3,13 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_ciclovida"
+            android:id="@+id/nav_monitoramento"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/app_ciclo" />
+            android:title="@string/app_monitoramento" />
         <item
-            android:id="@+id/nav_listactivity1"
+            android:id="@+id/nav_listacontato"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/app_listactivity" />
+            android:title="@string/app_listacontato" />
         <item
             android:id="@+id/nav_simpleadapter"
             android:icon="@drawable/ic_menu_slideshow"

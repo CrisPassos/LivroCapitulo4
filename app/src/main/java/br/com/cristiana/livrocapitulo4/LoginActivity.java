@@ -26,7 +26,7 @@ public class LoginActivity extends Activity {
         String usuario = tilUsuario.getEditText().getText().toString();
         String senha = tilSenha.getEditText().getText().toString();
 
-        if (usuario.equals("admin") && senha.equals("admin")){
+        if (usuario.equals("cristiana") && senha.equals("123")){
             tilSenha.setErrorEnabled(false);
             tilUsuario.setErrorEnabled(false);
 
